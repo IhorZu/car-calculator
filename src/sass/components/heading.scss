@@ -1,0 +1,16 @@
+.heading {
+    color: $color_text;
+    font-family: $font_open_sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.25;
+
+    @media screen and (max-width: 1023px) {
+        font-size: 24px;
+    }
+
+    @media screen and (max-width: 767px) {
+        font-size: 20px;
+    }
+}

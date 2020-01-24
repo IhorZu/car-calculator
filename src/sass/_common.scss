@@ -1,0 +1,18 @@
+[hidden] {
+    display: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-width: 320px;
+    height: 100%;
+    background: #000;
+    font-family: $font_open_sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
